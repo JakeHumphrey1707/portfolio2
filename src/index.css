@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .fade-in {
   opacity: 0;
@@ -9,7 +10,7 @@
 
 .fade-out {
   opacity: 0;
-  animation: fade-out 1s ease-in-out backwards;
+  animation: fade-out 0.5s ease-in-out backwards;
 }
 
 .fade-in-out {
