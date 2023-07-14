@@ -13,13 +13,13 @@ const Contact = () => {
             <Slide direction='down'>
             <div className='grid gap-y-4 text-right md:text-center'>
               <span>Send me an email: </span>
-              <code className='rounded-md md:bg-gray-500 bg-opacity-30 md:flex justify-between md:px-4 md:text-xl text-[15px] p-1'>
+              <code className='rounded-md md:flex justify-between md:px-4 md:text-xl text-[15px] md:gap-4 p-1'>
                 jakematthewh@gmail.com
                 <Copy text='jakematthewh@gmail.com' />
               </code>
 
               <span>Call or text me: </span>
-              <code className='rounded-md md:bg-gray-500 bg-opacity-30 md:flex justify-between md:px-4 md:text-xl text-[15px]'>
+              <code className='rounded-md md:flex justify-between md:px-4 md:text-xl text-[15px]'>
                 +61 400 414 039
                 <Copy text='+61 400 414 039' />
               </code>

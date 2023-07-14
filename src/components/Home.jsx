@@ -5,7 +5,6 @@ import Work from './Work';
 import Skills from './Skills';
 import Contact from './Contact';
 import { GoDotFill } from 'react-icons/go';
-import Typed from 'react-typed';
 
 const Home = () => {
   const [selectedElement, setSelectedElement] = useState('about');
@@ -41,12 +40,7 @@ const Home = () => {
             <F duration={3000}>
               <p className='md:text-4xl text-xl cursor-default'>
                 <span className='text-white font-bold'>
-                  <Typed
-                    typeSpeed={50}
-                    strings={[
-                      `Jake Humphrey <span style="color: #64748b;">Portfolio</span>`
-                    ]}
-                  />
+                  Jake Humphrey Portfolio
                 </span>
               </p>
             </F>
