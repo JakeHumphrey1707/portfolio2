@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import Button from '../ui/Button';
 import avixohadmin from '../assets/avixohadmin.png';
+import ascii from '../assets/ascii.png';
 import ImageText from '../ui/ImageText';
 import F from '../ui/Fade';
 import Slide from '../ui/Slide';
@@ -55,7 +56,7 @@ const Work = () => {
                 <div className="col-span-2 row-span-2">
                   <ImageText
                     imageSrc={avixohadmin}
-                    text="Typescript, Next.js, Tailwind, Prisma, MongoDB, and NextAuth"
+                    text=""
                   />
                 </div>
                 <div className="items-center flex flex-col">
@@ -80,7 +81,7 @@ const Work = () => {
                 <div className="col-span-2 row-span-2">
                   <ImageText
                     imageSrc={avixohadmin}
-                    text="Typescript, Next.js, Tailwind, Prisma, MongoDB, and NextAuth"
+                    text=""
                   />
                 </div>
                 <div className="items-center flex flex-col">
@@ -104,18 +105,18 @@ const Work = () => {
               <div className="grid grid-cols-2 grid-rows-3 gap-8">
                 <div className="col-span-2 row-span-2">
                   <ImageText
-                    imageSrc={avixohadmin}
-                    text="Typescript, Next.js, Tailwind, Prisma, MongoDB, and NextAuth"
+                    imageSrc={ascii}
+                    text=""
                   />
                 </div>
                 <div className="items-center flex flex-col">
                   <Button
                     text="GitHub"
-                    link="https://github.com/JakeHumphrey1707/avixoh-admin.git"
+                    link="https://github.com/JakeHumphrey1707/ascii-live-video.git"
                   />
                 </div>
                 <div className="items-center flex flex-col">
-                  <Button text="Demo" link="/" />
+                  <Button text="Demo" link="https://ascii-live-video.vercel.app" />
                 </div>
               </div>
             }
