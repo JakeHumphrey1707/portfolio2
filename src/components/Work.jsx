@@ -99,7 +99,7 @@ const Work = () => {
           />
 
           <Accordion
-            title={<p className="text-white">"PLANT-PACE"</p>}
+            title={<p className="text-white">"ASCII-VIDEO"</p>}
             content={
               <div className="grid grid-cols-2 grid-rows-3 gap-8">
                 <div className="col-span-2 row-span-2">
