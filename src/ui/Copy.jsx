@@ -16,7 +16,9 @@ const Copy = ({ text }) => {
   return (
     <div>
       <button onClick={handleCopy} className='hidden md:block'>
-        {isCopied ? <CopyCheck className='text-slate-500 duration-200 flex' /> : <CopyIcon className='hover:text-slate-500 hover:scale-110 duration-200 flex' />}
+        {isCopied ? <CopyCheck className='text-green-500 transition-colors flex' /> 
+        : 
+        <CopyIcon className='hover:text-slate-500 hover:scale-110 transition-colors duration-200 flex' />}
       </button>
       
     </div>

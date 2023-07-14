@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import Button from '../ui/Button';
 import avixohadmin from '../assets/avixohadmin.png';
 import ImageText from '../ui/ImageText';
-import F from '../ui/F';
+import F from '../ui/Fade';
+import Slide from '../ui/Slide';
 
 const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
   const contentRef = useRef();
@@ -16,7 +17,7 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
   };
 
   return (
-    <div className="border-b-2">
+    <div className="border-b-2 border-slate-500">
       <button
         className='w-full text-left p-4 focus:outline-none flex items-center justify-center gap-4'
         onClick={handleToggle}
@@ -44,7 +45,8 @@ const Work = () => {
 
   return (
     <F duration={3000}>
-      <div className="w-full h-screen flex items-center justify-center md:pr-24 md:scale-100 scale-75">
+      <Slide direction='left'>
+      <div className="w-full h-screen flex items-center justify-center md:px-44 md:pl-0 pl-4 md:scale-100 scale-[0.9]">
         <div className="p-4 md:text-4xl text-xl">
           <Accordion
             title={<p className="text-white">"ECOMMERCE-ADMIN"</p>}
@@ -122,6 +124,7 @@ const Work = () => {
           />
         </div>
       </div>
+      </Slide>
     </F>
   );
 };
