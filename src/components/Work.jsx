@@ -18,7 +18,7 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
   };
 
   return (
-    <div className="border-b-2 border-slate-500 w-full">
+    <div className="border-b-2 border-slate-500 w-full scrollbar-hide">
       <button
         className='text-center md:text-left p-4 focus:outline-none flex items-center justify-center gap-4'
         onClick={handleToggle}
@@ -47,7 +47,7 @@ const Work = () => {
   return (
     <F duration={3000}>
       <div className="w-full h-screen flex items-center justify-center md:px-44 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
-        <div className="md:text-4xl text-xl">
+        <div className="md:text-4xl text-xl md:p-10 p-5">
         <Slide direction='right'>
           <Accordion
             title={<p className="text-white">"ECOMMERCE-ADMIN"</p>}

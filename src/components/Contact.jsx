@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <div className='w-full h-screen flex items-center justify-center'>
       <div>
-        <div className='md:h-full h-[90%] md:p-6 p-0 my-4 md:text-3xl text-[20px]'>
+        <div className='md:h-full h-[90%] my-4 md:text-3xl text-[20px] md:p-10 p-5'>
           <F duration={2000}>
             <Slide direction='down'>
-            <div className='grid gap-y-4 text-right md:text-center'>
+            <div className='grid gap-y-4 text-center'>
               <span>Send me an email: </span>
               <code className='rounded-md md:flex justify-between md:px-4 md:text-xl text-[15px] md:gap-4 p-1'>
                 jakematthewh@gmail.com
