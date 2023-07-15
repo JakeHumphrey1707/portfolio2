@@ -88,7 +88,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div className='w-full h-full z-10 col-span-3 lg:col-span-2'><F duration={5000}>{renderComponent()}</F></div>
+        <div className='w-full h-screen z-10 col-span-3 lg:col-span-2'><F duration={5000}>{renderComponent()}</F></div>
         
       </div>
       </F>

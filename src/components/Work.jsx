@@ -18,9 +18,9 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
   };
 
   return (
-    <div className="border-b-2 border-slate-500">
+    <div className="border-b-2 border-slate-500 w-full">
       <button
-        className='w-full text-left p-4 focus:outline-none flex items-center justify-center gap-4'
+        className='text-center md:text-left p-4 focus:outline-none flex items-center justify-center gap-4'
         onClick={handleToggle}
       >
         <span className="font-medium">{title}</span>
@@ -46,14 +46,17 @@ const Work = () => {
 
   return (
     <F duration={3000}>
-      <Slide direction='right'>
-      <div className="w-full h-screen flex items-center justify-center md:px-44 md:pl-0 pl-4 md:scale-100 scale-[0.9] overflow-scroll">
-        <div className="p-4 md:text-4xl text-xl">
+      <div className="w-full h-screen flex items-center justify-center md:px-44 md:pl-0 pl-4 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
+        <div className="md:text-4xl text-xl">
+        <Slide direction='right'>
           <Accordion
             title={<p className="text-white">"ECOMMERCE-ADMIN"</p>}
             content={
-              <div className="grid grid-cols-2 grid-rows-3 gap-8">
-                <div className="col-span-2 row-span-2">
+              <div className="grid grid-cols-2 gap-y-4">
+                <p className='text-sm text-center col-span-2 justify-center px-20 text-gray-400'>
+                  E-commerce administration application. Built using Next.js, Typescript, Tailwind, Prisma, MongoDB, and NextAuth. Features: Dynamic API calls, content management system, data visualization  and more.
+                </p>
+                <div className="col-span-2">
                   <ImageText
                     imageSrc={avixohadmin}
                     text=""
@@ -77,8 +80,11 @@ const Work = () => {
           <Accordion
             title={<p className="text-white">"AVIXOH-KNITTING"</p>}
             content={
-              <div className="grid grid-cols-2 grid-rows-3 gap-8">
-                <div className="col-span-2 row-span-2">
+              <div className="grid grid-cols-2 gap-y-4">
+                <p className='text-sm text-center col-span-2 justify-center px-20 text-gray-400'>
+                  Comission piece: Store front for "AVIXOH Knitting Pty Ltd". Built using Next.js, Typescript, Tailwind, Stripe API and NextAuth.
+                </p>
+                <div className="col-span-2">
                   <ImageText
                     imageSrc={avixohadmin}
                     text=""
@@ -91,7 +97,7 @@ const Work = () => {
                   />
                 </div>
                 <div className="items-center flex flex-col">
-                  <Button text="Demo" link="/" />
+                  <Button text="Live Site" link="/" />
                 </div>
               </div>
             }
@@ -102,8 +108,8 @@ const Work = () => {
           <Accordion
             title={<p className="text-white">"ASCII-VIDEO"</p>}
             content={
-              <div className="grid grid-cols-2 grid-rows-3 gap-8">
-                <div className="col-span-2 row-span-2">
+              <div className="grid grid-cols-2 gap-y-4">
+                <div className="col-span-2">
                   <ImageText
                     imageSrc={ascii}
                     text=""
@@ -123,9 +129,10 @@ const Work = () => {
             isOpen={activeAccordion === 2}
             toggleAccordion={() => toggleAccordion(2)}
           />
+           </Slide>
         </div>
       </div>
-      </Slide>
+     
     </F>
   );
 };
