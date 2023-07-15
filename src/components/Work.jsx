@@ -46,7 +46,7 @@ const Work = () => {
 
   return (
     <F duration={3000}>
-      <div className="w-full h-screen flex items-center justify-center md:px-44 md:pl-0 pl-4 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
+      <div className="w-full h-screen flex items-center justify-center md:px-44 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
         <div className="md:text-4xl text-xl">
         <Slide direction='right'>
           <Accordion
