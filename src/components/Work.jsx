@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import Button from '../ui/Button';
-import avixohadmin from '../assets/avixohadmin.png';
+import admin from '../assets/admin.png';
+import store from '../assets/store.png';
 import ascii from '../assets/ascii.png';
 import ImageText from '../ui/ImageText';
 import F from '../ui/Fade';
@@ -14,7 +15,7 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
   };
 
   const getContentHeight = () => {
-    return isOpen ? contentRef.current.scrollHeight : 1;
+    return isOpen ? contentRef.current.scrollHeight : 0;
   };
 
   return (
@@ -46,7 +47,7 @@ const Work = () => {
 
   return (
     <F duration={3000}>
-      <div className="w-full h-screen flex items-center justify-center md:px-44 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
+      <div className="w-full h-screen flex items-center justify-center md:px-4 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
         <div className="md:text-4xl text-xl md:p-10 p-5">
         <Slide direction='right'>
           <Accordion
@@ -58,7 +59,7 @@ const Work = () => {
                 </p>
                 <div className="col-span-2">
                   <ImageText
-                    imageSrc={avixohadmin}
+                    imageSrc={admin}
                     text=""
                   />
                 </div>
@@ -69,7 +70,7 @@ const Work = () => {
                   />
                 </div>
                 <div className="items-center flex flex-col">
-                  <Button text="Demo" link="/" />
+                  <Button text="Demo" link="https://avixoh-admin.vercel.app" />
                 </div>
               </div>
             }
@@ -86,7 +87,7 @@ const Work = () => {
                 </p>
                 <div className="col-span-2">
                   <ImageText
-                    imageSrc={avixohadmin}
+                    imageSrc={store}
                     text=""
                   />
                 </div>

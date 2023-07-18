@@ -12,27 +12,27 @@ const Contact = () => {
           <div className='grid grid-cols-2 grid-rows-3 gap-4 md:gap-x-10'>
             <Slide direction='down gap-y-2'>
               <p>HTML</p>
-              <SiHtml5 size={'12vh'} className='text-orange-500 hover:scale-[1.05] transition-colors duration-300' />
+              <SiHtml5 size={'12vh'} className='text-orange-500 hover:scale-[1.15] duration-200' />
             </Slide>
             <Slide direction='down gap-y-2'>
               <p>CSS</p>
-              <SiCss3 size={'12vh'} className='text-blue-500 hover:scale-[1.05] transition-colors duration-300' />
+              <SiCss3 size={'12vh'} className='text-blue-500 hover:scale-[1.15] duration-200' />
             </Slide>
             <Slide direction='left gap-y-2'>
               <p>VANILLA JS</p>
-              <SiJavascript size={'12vh'} className='text-yellow-400 hover:scale-[1.05] transition-colors duration-300' />
+              <SiJavascript size={'12vh'} className='text-yellow-400 hover:scale-[1.15] duration-200' />
             </Slide>
             <Slide direction='right gap-y-2'>
               <p>REACT</p>
-              <SiReact size={'12vh'} className='text-cyan-400 hover:scale-[1.05] transition-colors duration-300'  />
+              <SiReact size={'12vh'} className='text-cyan-400 hover:scale-[1.15] duration-200'  />
             </Slide>
             <Slide direction='up gap-y-2'>
               <p>NEXT</p>
-              <SiNextdotjs size={'12vh'} className='text-gray-800 hover:scale-[1.05] transition-colors duration-200' />
+              <SiNextdotjs size={'12vh'} className='text-gray-800 hover:scale-[1.15] duration-200' />
             </Slide>
             <Slide direction='up gap-y-2'>
               <p>TAILWIND</p>
-              <SiTailwindcss size={'12vh'} className='text-cyan-400 hover:scale-[1.05] transition-colors duration-300' />
+              <SiTailwindcss size={'12vh'} className='text-cyan-400 hover:scale-[1.15] duration-200' />
             </Slide>
           </div>
         </div>

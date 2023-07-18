@@ -35,14 +35,14 @@ const Home = () => {
     <div className='w-full h-screen bg-black text-white font-poppins overflow-hidden scrollbar-hide'>
     <F duration={2000}>
       <div className='grid grid-cols-4 w-full h-full backgroundimage'>
-        <div className='md:p-20 p-4 md:pl-16 ml-auto space-y-12 text-lg md:text-2xl md:text-right justify-center z-50 flex flex-col col-span-1 lg:col-span-2'>
+        <div className='lg:p-20 md:p-10 p-4 lg:pl-16 ml-auto space-y-12 text-lg md:text-2xl md:text-right justify-center z-50 flex flex-col col-span-1 lg:col-span-2'>
           <div className=''>
             <F duration={3000}>
-              <p className='md:text-4xl text-xl cursor-default'>
-                <span className='text-white font-bold'>
-                  Jake Humphrey Portfolio
-                </span>
-              </p>
+              <div className='md:text-4xl text-xl cursor-default flex flex-col'>
+                <div className='text-white font-bold'>
+                  Jake Humphrey <span className='text-slate-500'>Portfolio</span>
+                </div>
+              </div>
             </F>
           </div>
 

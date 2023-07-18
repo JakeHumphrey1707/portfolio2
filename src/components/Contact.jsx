@@ -11,18 +11,12 @@ const Contact = () => {
         <div className='md:h-full h-[90%] my-4 md:text-3xl text-[20px] md:p-10 p-5'>
           <F duration={2000}>
             <Slide direction='down'>
-            <div className='grid gap-y-4 text-center'>
-              <span>Send me an email: </span>
-              <code className='rounded-md md:flex justify-between md:px-4 md:text-xl text-[15px] md:gap-4 p-1'>
+            <div className='gap-y-4 text-center'>
+              <span className='text-slate-500'>Send me an email: </span>
+              <span className='rounded-md md:flex justify-between md:px-4 md:gap-4 p-1'>
                 jakematthewh@gmail.com
                 <Copy text='jakematthewh@gmail.com' />
-              </code>
-
-              <span>Call or text me: </span>
-              <code className='rounded-md md:flex justify-between md:px-4 md:text-xl text-[15px]'>
-                +61 400 414 039
-                <Copy text='+61 400 414 039' />
-              </code>
+              </span>
             </div>
             </Slide>
 
