@@ -49,7 +49,7 @@ const Work = () => {
     <F duration={3000}>
       <div className="w-full h-screen flex items-center justify-center md:px-4 md:scale-100 scale-[0.9] overflow-y-scroll scrollbar-hide">
         <div className="md:text-4xl text-xl md:p-10 p-5">
-        <Slide direction='right'>
+        <Slide direction='up'>
           <Accordion
             title={<p className="text-white">"ECOMMERCE-ADMIN"</p>}
             content={
@@ -110,6 +110,9 @@ const Work = () => {
             title={<p className="text-white">"ASCII-VIDEO"</p>}
             content={
               <div className="grid grid-cols-2 gap-y-4">
+                <p className='text-sm text-center col-span-2 justify-center px-20 text-gray-400'>
+                  JS experiment - converts live video feed to ascii.
+                </p>
                 <div className="col-span-2">
                   <ImageText
                     imageSrc={ascii}

@@ -63,13 +63,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://i.pinimg.com/originals/c0/15/a8/c015a8451c561b7437c8e10ba17c0a30.jpg');
+  background: url('https://images.prismic.io/pixop-web/3db338a9-48ae-462c-afe0-888d7a8fc6c5_2014_Ziarno_na_fotografii_analogowej.jpeg?auto=compress,format');
   opacity: 0.4; /* Adjust the opacity as desired */
   pointer-events: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: blur(4px) grayscale(50%);
+  filter: blur(0px) grayscale(0%);
   
 }
 

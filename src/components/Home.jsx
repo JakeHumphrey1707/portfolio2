@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div className='w-full h-screen bg-black text-white font-poppins overflow-hidden scrollbar-hide'>
-    <F duration={2000}>
+    <F duration={4000}>
       <div className='grid grid-cols-4 w-full h-full backgroundimage'>
         <div className='lg:p-20 md:p-10 p-4 lg:pl-16 ml-auto space-y-12 text-lg md:text-2xl md:text-right justify-center z-50 flex flex-col col-span-1 lg:col-span-2'>
           <div className=''>

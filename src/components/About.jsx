@@ -8,7 +8,7 @@ const About = () => {
     <div className='w-full h-screen flex items-center justify-center'>
       <div className='md:p-10 p-5'>
         <div className='md:h-full h-[90%] scrollbar-hide'>
-          <F duration={2000}>
+          <F duration={3500}>
             <Slide direction='right'>
             <div className='md:grid md:grid-cols-2'>
               <div className=''>
