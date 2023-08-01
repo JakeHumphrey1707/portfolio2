@@ -1,5 +1,4 @@
-//reusable fade in component
-
+// F.js
 import React, { useLayoutEffect, useRef } from 'react';
 
 const F = ({ children, duration }) => {

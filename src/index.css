@@ -19,7 +19,7 @@
 
 .fade-in-out {
   opacity: 0;
-  animation: fade-in-out 3s ease-in-out forwards;
+  animation: fade-in-out 7s ease-in-out forwards;
 }
 
 @keyframes fade-in-out {

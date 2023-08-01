@@ -1,9 +1,9 @@
-import OnLoad from "./components/OnLoad";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div>
-      <OnLoad />
+      <Home />
     </div>
   );
 }
