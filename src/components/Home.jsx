@@ -39,7 +39,7 @@ const Home = () => {
           <div className='lg:p-20 md:p-10 p-4 lg:pl-16 ml-auto space-y-12 text-lg md:text-2xl md:text-right justify-center z-50 flex flex-col col-span-1 lgcol-span-2'>
             <div className=''>
               <div className='md:text-4xl text-xl cursor-default flex flex-col'>
-              <p className='text-left font-bold fade-in-out'>Hello, I'm</p>
+              <p className='text-right font-bold fade-in-out'>Hello, I'm</p>
                 <div className='text-white font-bold'>
                   
                   Jake Humphrey <F duration={20000}><span className='text-slate-500'>Portfolio</span></F>
