@@ -12,15 +12,15 @@ const About = () => {
             <Slide direction='right'>
             <div className='md:grid md:grid-cols-2'>
               <div className=''>
-                <p className='md:p-6 md:pl-0 pl-12 md:my-4 text-md md:text-3xl text-left'>          
+                <p className='md:p-6 md:pl-0 pl-12 md:my-4 text-sm sm:text-md md:text-3xl text-left'>          
                   Born in Australia, 2003. Studying a bachelor of computer science at Swinburne 
                   University of Technology. Computers are my passion, since I was a child I've
                   been pulling electronics apart because I was curious. Now,
                   I'm putting them back together, and making some improvements.
                 </p>
               </div>
-              <div className='items-center justify-center flex md:scale-100 scale-50'>
-                <img src={Headshot} alt="" className='bg-gray-800 bg-opacity-20 rounded-full hover:translate-y-[-10px] duration-500'/>
+              <div className='items-center justify-center flex md:scale-100 scale-[69%]'>
+                <img src={Headshot} alt="" className='rounded-2xl hover:translate-y-[-10px] duration-200'/>
               </div>
             </div>
             </Slide>
